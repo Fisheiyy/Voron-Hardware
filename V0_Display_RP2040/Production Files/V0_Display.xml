@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\myall\Downloads\RP2040-V0-Display\KiCad\V0_Display.kicad_sch</source>
-    <date>3/4/2023 11:41:29 AM</date>
+    <source>C:\Users\myall\Downloads\V0_Display_RP2040\KiCad\V0_Display.kicad_sch</source>
+    <date>3/4/2023 8:14:05 PM</date>
     <tool>Eeschema (7.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -287,8 +287,8 @@
       <tstamps>00000000-0000-0000-0000-00005e2313d9</tstamps>
     </comp>
     <comp ref="J4">
-      <value>USB4105-GF-A</value>
-      <footprint>footprints:USB4105-GF-A</footprint>
+      <value>GT-USB-7010ASV</value>
+      <footprint>Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV</footprint>
       <datasheet>https://gct.co/files/drawings/usb4105.pdf</datasheet>
       <fields>
         <field name="MANUFACTURER">GCT</field>
@@ -357,7 +357,7 @@
       <tstamps>be3b62b8-ce47-4136-aa76-780e149b7af8</tstamps>
     </comp>
     <comp ref="R1">
-      <value>10k</value>
+      <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
@@ -460,7 +460,7 @@
       <tstamps>0f9c0999-7f22-41d3-b8f3-d3804e905448</tstamps>
     </comp>
     <comp ref="R11">
-      <value>10k</value>
+      <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Sheetname" value=""/>
@@ -533,7 +533,7 @@
     </comp>
     <comp ref="U3">
       <value>74LVC1G17</value>
-      <footprint>V0-Display:SOT-753</footprint>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
       <fields>
         <field name="LCSC">C6076</field>
